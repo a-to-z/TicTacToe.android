@@ -273,6 +273,19 @@ public class MainActivity extends AppCompatActivity {
             end = true;
         }
 
+        if(!a.equals("") &&
+                !b.equals("") &&
+                !c.equals("") &&
+                !d.equals("") &&
+                !e.equals("") &&
+                !f.equals("") &&
+                !g.equals("") &&
+                !h.equals("") &&
+                !i.equals("")){
+            Toast.makeText(this, "Draw Game!", Toast.LENGTH_SHORT).show();
+            end = true;
+        }
+
 
         if(end){
             b1.setEnabled(false);
