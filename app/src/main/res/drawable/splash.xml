@@ -3,8 +3,8 @@
     android:opacity="opaque">
     <item android:drawable="@color/colorPrimary"/>
     <item>
-        <bitmap
-            android:gravity="fill_horizontal"
+         <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+            android:gravity="clip_horizontal|center_vertical"
             android:src="@drawable/ic_splash_logo"/>
     </item>
 </layer-list>
